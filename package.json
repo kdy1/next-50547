@@ -10,6 +10,8 @@
     "generate:api": "openapi-codegen gen petStore"
   },
   "dependencies": {
+    "@swc/core": "^1.3.95",
+    "@swc/plugin-styled-components": "^1.5.94",
     "@types/node": "20.2.5",
     "@types/react": "18.2.7",
     "@types/react-dom": "18.2.4",
